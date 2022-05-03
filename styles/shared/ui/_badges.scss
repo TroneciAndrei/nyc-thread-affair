@@ -1,0 +1,21 @@
+.badge {
+  background-color: $brand-primary;
+  border-radius: 50%;
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  color: $white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 20px;
+
+  &-font-large {
+    font-size: 24px;
+  }
+
+  &-secondary {
+    background-color: $brand-secondary;
+  }
+}
