@@ -1,8 +1,8 @@
 export default function Header() {
   return (
-  <header className="header container mt-4">
-    <section className="header-secondary d-flex justify-content-between">
-      <div className="header-connect">
+  <header className="header container mt-0 mt-lg-4">
+    <section className="header-secondary">
+      <div className="header-connect  d-none d-lg-block">
         <ul>
           <li>
             <a href="tel:+" title="Call us">
@@ -15,6 +15,22 @@ export default function Header() {
             <a href="mailto:" title="Mail us">
               office@traidaffairs.com
               </a>
+          </li>
+        </ul>
+      </div>
+
+      <div className="header-search d-lg-none">
+        <ul>
+          <li>
+            <a href="" title="Menu">
+            <i class="fa-solid fa-bars"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="" title="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
           </li>
         </ul>
       </div>
@@ -35,9 +51,71 @@ export default function Header() {
           </a>
         </section>
       </div>
+
+      <div className="header-logo text-center">
+        <a href="https://google.com">
+        <img src="/images/logo.jpg" alt="Thread Affair - Logo" />
+        </a>
+      </div>
     </section>
 
-    <section className="header-primary"></section>
+    <section className="header-primary d-none d-lg-block">
+      <nav className="nav-primary">
+        <ul>
+          <li>
+            <a href="" title="Costume">
+              Costume
+              </a>
+          </li>
+
+          <li>
+            <a href="" title="Costume">
+              Costume
+              </a>
+          </li>
+
+          <li>
+            <a href="" title="Costume">
+              Costume
+              </a>
+          </li>
+
+          <li>
+            <a href="" title="Costume">
+              Costume
+              </a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav className="nav-secondary">
+        <ul>
+          <li>
+            <a href="" title="Office suits">
+              Office suits
+              </a>
+          </li>
+
+          <li>
+            <a href="" title="Office suits">
+              Office suits
+              </a>
+          </li>
+
+          <li>
+            <a href="" title="Office suits">
+              Office suits
+              </a>
+          </li>
+
+          <li>
+            <a href="" title="Office suits">
+              Office suits
+              </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
   </header>
   );
 }
