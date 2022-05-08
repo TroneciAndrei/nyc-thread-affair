@@ -60,6 +60,17 @@
       display: flex;
       justify-content: center;
       gap: 8px;
+
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        i {
+          color: $brand-primary;
+          font-size: 20px;
+        }
+      }
     }
 
     @include media-breakpoint-up(lg) {
@@ -75,8 +86,21 @@
     grid-area: contact;
     text-transform: initial;
 
+    h1 {
+      font-size: 20px;
+      font-weight: 300;
+
+      span {
+        font-weight: 700;
+      }
+    }
+
     p {
       margin: 0;
+
+      a {
+        color: $brand-primary;
+      }
     }
 
     @include media-breakpoint-up(lg) {
