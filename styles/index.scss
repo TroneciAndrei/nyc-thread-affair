@@ -15,6 +15,9 @@
 
 @import './shared/index';
 @import 'reset';
+
+// homepage
+@import './homepage/index';
 body {
   font-family: 'Roboto', sans-serif;
   color: $gray-primary;
