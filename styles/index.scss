@@ -13,6 +13,10 @@
 @import './../node_modules/bootstrap/scss/bootstrap-utilities';
 @import './../node_modules/bootstrap/scss/images';
 
+// glidejs
+@import './../node_modules/@glidejs/glide/src/assets/sass/glide.core';
+@import './../node_modules/@glidejs/glide/src/assets/sass/glide.theme';
+
 @import './shared/index';
 @import 'reset';
 
@@ -22,4 +26,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: $gray-primary;
+}
+
+.glide {
+  img {
+    width: 100%;
+  }
 }
